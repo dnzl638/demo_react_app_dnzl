@@ -2,6 +2,7 @@ import './App.css'
 
 import React from 'react';
 import Welcome from './components/Welcome';
+import Counter from './components/Counter';
 
 class App extends React.Component {
   constructor(props) {
@@ -12,7 +13,8 @@ class App extends React.Component {
     return (
         <div>
             { /* Change code below this line */ }
-            <Welcome name="Foo"/>
+            <Welcome name="3AKIFT"/>
+            <Counter></Counter>
             { /* Change code above this line */ }
         </div>
     );

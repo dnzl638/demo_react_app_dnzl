@@ -1,16 +1,14 @@
+import React from 'react';
+
 class Counter extends React.Component {
 	constructor(props) {
 		super(props);
-		this.state = {
-			count: 0
-		};
-		// Change code below this line
-
-		// Change code above this line
+		this.state = {count: 0};
+		this.increment = this.increment.bind(this);
 	}
-	// Change code below this line
+	increment()
+	{this.setState(state => { return { count: this.state.count + 1}; });}
 
-	// Change code above this line
 	render() {
 		return (
 			<div>
@@ -22,5 +20,6 @@ class Counter extends React.Component {
 		);
 	}
 };
+
 
 export default Counter
