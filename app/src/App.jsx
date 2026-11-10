@@ -15,7 +15,7 @@ class App extends React.Component {
             { /* Change code below this line */ }
             <Welcome name="3AKIFT"/>
             <Counter></Counter>
-            <SharedCounter></SharedCounter>
+            <Counter></Counter>
             { /* Change code above this line */ }
         </div>
     );
